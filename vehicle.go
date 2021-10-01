@@ -46,7 +46,7 @@ const (
 )
 
 var vehicleResult map[string]feedbackResult
-var inventory vehicle
+var inventory []vehicle
 
 func init() {
 
